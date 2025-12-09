@@ -8,11 +8,17 @@ export default function Atributo({ icone, valor }: AtributoProps) {
     <div className="atributo">
       {/* Garantir que valor esteja entre 0 e 10 para evitar RangeError em String.repeat */}
       {(() => {
-        const v = Math.max(0, Math.min(10, Math.floor(valor)));
+        // garantir que o valor seja um número finito; caso contrário, usar 0
+        const safeValor = Number.isFinite(valor) ? valor : 0;
+        const v = Math.max(0, Math.min(5, Math.floor(safeValor)));
+
+        // garantir que icone seja uma string antes de chamar repeat
+        const ic = String(icone);
+
         return (
           <>
-            <span className="ativo">{icone.repeat(v)} </span>
-            <span className="desabilitado">{icone.repeat(10 - v)}</span>
+            <span className="ativo">{ic.repeat(v)} </span>
+            <span className="desabilitado">{ic.repeat(5 - v)}</span>
           </>
         );
       })()}

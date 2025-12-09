@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+span {
+  font-size: 3em;
+}
 
 a {
   font-weight: 500;
