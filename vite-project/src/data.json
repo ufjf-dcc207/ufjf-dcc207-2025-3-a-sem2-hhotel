@@ -25,5 +25,14 @@
     "imagemNeutra": "https://i.pinimg.com/736x/d1/c5/0c/d1c50c401ef07a8cd056549a998b3661.jpg",
     "imagemRedimido": "https://i.pinimg.com/736x/47/45/d7/4745d73aff929ace101c242efe6d162c.jpg",
     "imagemSoberano": "https://i.pinimg.com/736x/88/e3/b8/88e3b81bbde18bd77a81e72ea095c473.jpg"
-  }
+  },
+    {
+        "nome": "Angel Dust",
+        "bondade": 3,
+        "maldade": 4,
+        "situacao": "Neutro",
+        "imagemNeutra": "https://i.pinimg.com/736x/89/00/c3/8900c3fe4c5b403f4521992184d2d904.jpg",
+        "imagemRedimido": "https://i.pinimg.com/736x/20/bc/b7/20bcb7cf09763df4f1fcde071bc8d7c1.jpg",
+        "imagemSoberano": "https://i.pinimg.com/1200x/d7/96/22/d79622dcdf44c4600cd9488e4edb3558.jpg"
+    }
 ]

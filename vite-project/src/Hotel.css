@@ -22,4 +22,14 @@
 }
 img{
     box-shadow: 0 4px 8px rgb(255, 255, 255);
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hotel-nome{
+    font-size: 4em;
+    color: rgb(255, 94, 98);
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;ont-weight: bold;
+    c
 }

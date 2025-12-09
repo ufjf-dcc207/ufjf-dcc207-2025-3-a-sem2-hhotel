@@ -88,11 +88,13 @@ export default function Hotel() {
 
   return (
     <div className="hotel">
+      <h1 className="hotel-nome">Hazbin Hotel</h1>
       <div className="situacao">{atual.situacao}</div>
       <img
         src={ImagemSituacao()}
         style={{ width: "200px", border: "1px solid red" }}
       />
+      
       <div className="hospedes">
         <div className="nome">{atual.nome}</div>
         <Atributo icone="😇" valor={atual.bondade} />
