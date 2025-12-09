@@ -1,8 +1,9 @@
 .atributo {
   display: flex;
-  
+  font-size: 50px;
 }
 .desabilitado {
   filter: grayscale(100%);
     opacity: 0.4;
 }
+

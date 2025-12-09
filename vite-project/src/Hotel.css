@@ -7,15 +7,19 @@
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1em;
-    display: auto;
+    margin-top: 150px;
+    color: rgb(181, 242, 230);
 }
 .nome{
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 0.5em 0;
+    color: rgb(243, 239, 177);
 }
 .acoes{
-    display: center;
+    display: inline-flex;
     flex-direction: row;
     gap: 1em;
 }
-
+img{
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
