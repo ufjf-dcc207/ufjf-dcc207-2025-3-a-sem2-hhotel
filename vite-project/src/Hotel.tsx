@@ -2,14 +2,6 @@ import { useState } from "react";
 import "./hotel.css";
 import Atributo from "./Atributo";
 
-const data: HospedeType = {
-  nome: "Sr. Pentious",
-  foto: { neutro: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAZard7_5ha48cpkezXmudLN1_LkHrtjgdQ&s",
-redimido: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsuvf9XP626n_VyyNnaewk6FVjH7hAzbamg&s", soberano: "" },
-  bondade: 5,
-  maldade: 3,
-};
-
 export type HospedeType = {
   id?: number;
   nome: string;
@@ -20,10 +12,13 @@ export type HospedeType = {
 
 export default function Hotel() {
   let situacao = "neutro";
+
   const [hospedes, setHospedes] = useState<HospedeType>({
-    nome: data.nome,
-    bondade: data.bondade,
-    maldade: data.maldade,
+    nome: "Sr. Pentious",
+    foto: { neutro: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAZard7_5ha48cpkezXmudLN1_LkHrtjgdQ&s",
+    redimido: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsuvf9XP626n_VyyNnaewk6FVjH7hAzbamg&s", soberano: "" },
+    bondade: 4,
+    maldade: 2,
   });
 
   if (hospedes.bondade === 10) {
@@ -59,21 +54,11 @@ export default function Hotel() {
     });
   }
 
-  function atualizarSituacao() {
-    if (hospedes.bondade === 10) {
-      situacao = hospedes.foto?.redimido ?? "redimido";
-    } else if (hospedes.bondade === 0) {
-      situacao = "condenado";
-    } else if (hospedes.maldade == 10) {
-      situacao = "Soberano do Inferno";
-    }
-  }
-
   return (
     <div className="hotel">
       <div className="situacao">{situacao}</div>
       <div className="hospedes">
-        <img src={data.foto?.neutro} alt={hospedes.nome} />
+        <img src={hospedes.foto?.neutro} alt={hospedes.nome} />
 
         <div className="nome">{hospedes.nome}</div>
         <Atributo icone="😇" valor={hospedes.bondade} />
