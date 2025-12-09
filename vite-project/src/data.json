@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Sr. Pentious",
+    "bondade": 3,
+    "maldade": 2,
+    "situacao": "Neutro",
+    "imagemNeutra": "https://static.zerochan.net/Sir.Pentious.1024.2822103.webp",
+    "imagemRedimido": "https://i.pinimg.com/736x/1c/4b/fe/1c4bfe36dba569e3a7d51af4f61c117a.jpg",
+    "imagemSoberano": "https://i.pinimg.com/1200x/4c/d5/7d/4cd57d3ecc22188c53bb284118199a94.jpg"
+  },
+  {
+    "nome": "Charlie",
+    "bondade": 3,
+    "maldade": 3,
+    "situacao": "Neutro",
+    "imagemNeutra": "https://i.pinimg.com/1200x/8e/63/4e/8e634e115354cc8a20977e44a3bad3dd.jpg",
+    "imagemRedimido": "https://i.pinimg.com/736x/6a/5a/ff/6a5affbaf573b8ef0fe864bc0a751fb3.jpg",
+    "imagemSoberano": "https://i.pinimg.com/1200x/66/e7/8a/66e78a89349b70967ae5b609d1466080.jpg"
+  },
+  {
+    "nome": "Alastor",
+    "bondade": 0,
+    "maldade": 5,
+    "situacao": "Soberano",
+    "imagemNeutra": "https://i.pinimg.com/736x/d1/c5/0c/d1c50c401ef07a8cd056549a998b3661.jpg",
+    "imagemRedimido": "https://i.pinimg.com/736x/47/45/d7/4745d73aff929ace101c242efe6d162c.jpg",
+    "imagemSoberano": "https://i.pinimg.com/736x/88/e3/b8/88e3b81bbde18bd77a81e72ea095c473.jpg"
+  }
+]
