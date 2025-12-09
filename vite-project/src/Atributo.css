@@ -1,0 +1,11 @@
+.atributo {
+  display: flex;
+  
+}
+.desabilitado {
+  filter: grayscale(100%);
+opacity: 0.4;
+}
+.ativo{
+    filter: grayscale(0%);
+}

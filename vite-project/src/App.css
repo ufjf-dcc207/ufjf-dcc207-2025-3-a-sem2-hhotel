@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1px;
   text-align: center;
+  background-image: url('https://preview.redd.it/why-did-they-put-alastors-radio-tower-there-if-they-thought-v0-yqagoi9fqupd1.png?width=1080&crop=smart&auto=webp&s=cab0589eb7a562d7b21ef9ff5b70572eb787ae14');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .logo {

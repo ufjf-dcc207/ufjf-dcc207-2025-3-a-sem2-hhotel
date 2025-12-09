@@ -1,0 +1,21 @@
+.hospedes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.situacao{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    display: auto;
+}
+.nome{
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+.acoes{
+    display: center;
+    flex-direction: row;
+    gap: 1em;
+}
+

@@ -4,7 +4,8 @@ import Atributo from "./Atributo";
 
 const data: HospedeType = {
   nome: "Sr. Pentious",
-  foto: { neutro: "https://static.wikia.nocookie.net/hazbinhotel/images/4/47/SirPentiousRender_by_OKDraws.png/revision/latest?cb=20240421125429", redimido: "", soberano: "" },
+  foto: { neutro: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAZard7_5ha48cpkezXmudLN1_LkHrtjgdQ&s",
+redimido: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsuvf9XP626n_VyyNnaewk6FVjH7hAzbamg&s", soberano: "" },
   bondade: 5,
   maldade: 5,
 };
@@ -65,8 +66,9 @@ export default function Hotel() {
     <div className="hotel">
       <div className="situacao">{situacao}</div>
       <div className="hospedes">
-        
-        <div className="nome">Nome: {hospedes.nome}</div>
+        <img src={data.foto?.neutro} alt={hospedes.nome} />
+
+        <div className="nome">{hospedes.nome}</div>
         <Atributo icone="😇" valor={hospedes.bondade} />
         <Atributo icone="😈" valor={hospedes.maldade} />
       </div>
