@@ -1,10 +1,10 @@
-import { Atributo } from './Atributo'
+import Hotel from './hotel';
 import './App.css'
 
 function App() {
   return (
     <>
-      <Atributo/>
+      <Hotel />
     </>
   );
 }

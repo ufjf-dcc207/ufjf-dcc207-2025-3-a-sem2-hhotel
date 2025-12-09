@@ -1,0 +1,19 @@
+{
+    "hospedes": [
+        {
+            "nome": "Danrley",
+            "bondade": 10,
+            "maldade": 2
+        },
+        {
+            "nome": "João",
+            "bondade": 6,
+            "maldade": 5
+        },
+        {
+            "nome": "Maria",
+            "bondade": 9,
+            "maldade": 1
+        }
+    ]
+}
