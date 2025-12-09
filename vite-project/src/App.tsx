@@ -1,4 +1,4 @@
-import Hotel from './hotel';
+import Hotel from './Hotel';
 import './App.css'
 
 function App() {
