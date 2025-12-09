@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./hotel.css";
 import {Atributo} from "./Atributo";
 
+
 export type HospedeType = {
   nome: string;
   bondade: number;
@@ -21,24 +22,6 @@ export default function Hotel() {
     situacao: "Neutro"
   });
 
-  function AtualizaSituacao() {
-    if (hospedes.bondade === 5) {
-    setHospedes({
-      ...hospedes,
-      situacao: "Redimido"
-    });
-  }else if (hospedes.maldade === 5) {
-    setHospedes({
-      ...hospedes,
-      situacao: "Soberano"
-    });
-  }else{
-    setHospedes({
-      ...hospedes,
-      situacao: "Neutro"
-    });
-  }
-  }
 
 
   function BoasAções() {
@@ -82,6 +65,7 @@ export default function Hotel() {
       return ImagemNeutra;
     }
   }
+
 
   return (
     <div className="hotel">
